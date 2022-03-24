@@ -1,0 +1,41 @@
+#stop-watch {
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  width: 250px;
+  height: 110px;
+  padding: 20px;
+}
+
+#time {
+  font-size: 30px;
+  background-color: gainsboro;
+  padding-top: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 30%;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 2px black;
+}
+
+input:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+input:hover {
+  background-color: aliceblue;
+}
